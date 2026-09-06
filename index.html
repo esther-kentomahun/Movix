@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>MOVIX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="bg-slate-900 flex min-h-screen flex-col font-sans text-white">
+    <!--HEADER/NAV BAR-->
+    <header
+      class="sticky top-0 z-50 border-b border-slate-800 bg-slate-900/90 backdrop-blur-md"
+    >
+      <div
+        class="mx-auto flex flex-col gap-4 max-w-7xl justify-between p-4 sm:flex-row sm:items-center md:px-8"
+      >
+        <a
+          href="#"
+          class="text-2xl font-black tracking-wider text-white uppercase"
+          >Movi<span class="text-red-400">X</span></a
+        >
+        <form
+          id="searchMovie"
+          class="relative flex w-full items-center gap-2 sm:max-w-xs md:max-w-md"
+        >
+          <div class="relative w-full">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search Movies"
+              class="w-full rounded-lg border border-slate-700 bg-slate-100 py-2 pl-4 pr-4 text-sm text-slate-900 placeholder-slate-400 transition-all focus:border-slate-400 focus:outline-none focus:ring-1 focus:slate-400"
+            />
+          </div>
+          <button
+            type="submit"
+            class="rounded-lg bg-red-400 px-4 py-2 font-semibold text-white transition-colors hover:bg-red-500 focus:outline-none"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </header>
+    <!--MAIN CONTENT-->
+    <main class="mx-auto max-w-7xl px-4 py-8 md:px-8">
+      <!--SECTION HEADING-->
+      <div class="mb-8 flex items-center justify-between">
+        <h2
+          id="sectionTitle"
+          class="text-xl font-bold tracking-tigt text-white md:text-2xl"
+        >
+          Trending Movies
+        </h2>
+      </div>
+      <!--MOVIE GRID-->
+      <div
+        id="movieGrid"
+        class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+      ></div>
+    </main>
+    <footer
+      class="mt-auto border-t border-slate-800 bg-slate-900 py-8 text-slate-400"
+    >
+      <div class="mx-auto max-w-7xl px-4 md:px-8">
+        <div
+          class="flex flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left"
+        >
+          <div>
+            <a
+              href="#"
+              class="font-black tracking-wider text-white uppercase focus:outline-none"
+              >Movi<span class="text-red-400">X</span></a
+            >
+            <p class="mt-1 text-xs text-slate-500">
+              &copy; 2026 Movix. All rights reserved.
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-2 sm:items-end">
+            <img src="TMDBLOGO.jpeg" alt="TMDBLOGO" class="h-8 w-auto rounded-md "/>
+            <p class="max-w-xs text-xs text-slate-500">
+              This product uses the TMDB API but is not endorsed by TMDB
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
