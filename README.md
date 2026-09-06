@@ -4,7 +4,9 @@ Movix is a modern movie discovery web application built using JavaScript and sty
 
 ⸻
 
-Live Demo Link: 
+Live Demo Link: movix-alpha-two.vercel.app
+
+⸻
 
 🚀 Features
 
@@ -62,10 +64,10 @@ movix/
 
 ⚠️ Limitations
 
-* ❌ Users cannot save or favorite movies
-* ❌ No authentication system
-* ❌ Movies cannot be streamed (TMDB does not provide streaming)
-* ❌ No local storage functionality implemented
+* Users cannot save or favorite movies
+* No authentication system
+* Movies cannot be streamed (TMDB does not provide streaming)
+* No local storage functionality implemented
 
 ⸻
 
@@ -73,12 +75,6 @@ movix/
 
 * TMDB API
     Provides movie data including titles, ratings, posters, and descriptions.
-
-⸻
-
-📸 Screenshots
-
-(Add screenshots of your app here to showcase UI)
 
 ⸻
 
@@ -103,8 +99,9 @@ movix/
 
 If you’d like to connect or collaborate:
 
-* GitHub: https://github.com/your-username
-* Twitter/X: https://twitter.com/your-handle
+* GitHub: https://github.com/esther-kentomahun
+* Twitter/X: https://x.com/estherkent_?s=11
+* LinkedIn: http://linkedin.com/in/esther-kentomahun-778678300
 
 ⸻
 
