@@ -4,7 +4,9 @@ Movix is a modern movie discovery web application built using JavaScript and sty
 
 ⸻
 
-Live Demo Link: movix-alpha-two.vercel.app
+🌐 Live Demo
+
+View Movix Live:https://movix-alpha-two.vercel.app
 
 ⸻
 
